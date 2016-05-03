@@ -2,16 +2,21 @@
 """
 Created on Thu Sep 17 16:01:41 2015
 
-@author: rajat
+@author: rajat, jalFaizy
 """
 
 #2.2.3 Matlab as Calculator
+
+print "\nusing python as a calculator\n"
+
+####### add imports at start?
 import math
 
-print 2 + 3
+print "2 + 3 = ", 2 + 3
 
-print 7 - 5
+print "7 - 5 = ", 7 - 5
 
+# TODO
 print 17*4
 
 print 24/7
@@ -38,7 +43,7 @@ print 2**500
 
 print 2e3
 
-
+'''
 #2.2.4 Defining Matrices
 import numpy as np
 
@@ -236,3 +241,4 @@ ifile1.close()
 ifile2.close()    
 
 print np.corrcoef(matrix1, matrix2)
+'''
